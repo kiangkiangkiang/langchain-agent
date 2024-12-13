@@ -17,6 +17,13 @@ This tutorial is designed for Data Scientists who want to harness the power of L
 
 ## Creating a Toy Agent
 
+Refers to [here](./examples/create_toy_agent.py).
+
+### Tools 
+
+jf
+
+
 ## Adding Custom Strategy to Your Agent
 
 ## Managing Memory in Agents

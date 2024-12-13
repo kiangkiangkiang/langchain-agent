@@ -1,6 +1,8 @@
 python-dotenv
 langchain
 langchain_community
+langchain_openai
+numexpr
 openai
 flask
 httpx==0.27.2
