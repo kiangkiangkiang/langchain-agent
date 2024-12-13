@@ -1,3 +1,4 @@
 .env
 experiment
 ignore*
+__pycache__
