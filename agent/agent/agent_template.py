@@ -1,5 +1,5 @@
-from cathay_agent import CathayAgent
-from customize_tools import *
+from agent.agent.cathay_agent import CathayAgent
+from agent.agent.customize_tools import *
 from langchain_community.agent_toolkits.load_tools import load_tools
 
 

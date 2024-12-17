@@ -1,6 +1,6 @@
 from langchain_openai import ChatOpenAI
 from langchain.agents.output_parsers.openai_tools import OpenAIToolsAgentOutputParser
-from base_store import BaseStore, registry_items, STORE_ITEMS
+from agent.agent.base_store import BaseStore, registry_items, STORE_ITEMS
 
 
 class LLMStore(BaseStore):

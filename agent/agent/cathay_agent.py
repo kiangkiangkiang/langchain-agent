@@ -7,8 +7,8 @@ from langchain.agents.format_scratchpad.openai_tools import (
     format_to_openai_tool_messages,
 )
 
-from prompt_store import PromptStore
-from llm_store import LLMStore
+from agent.agent.prompt_store import PromptStore
+from agent.agent.llm_store import LLMStore
 
 
 class CathayAgent:

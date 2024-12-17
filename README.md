@@ -29,3 +29,7 @@ jf
 ## Managing Memory in Agents
 
 ## Deploying Your Agent Chatbot
+
+curl -X POST http://localhost:5000/text_ask \
+     -H "Content-Type: application/json" \
+     -d '{"input": "你知道王小龍在哪嗎"}'

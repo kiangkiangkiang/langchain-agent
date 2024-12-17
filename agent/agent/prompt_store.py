@@ -1,5 +1,5 @@
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from base_store import BaseStore, registry_items, STORE_ITEMS
+from agent.agent.base_store import BaseStore, registry_items, STORE_ITEMS
 
 
 class PromptStore(BaseStore):

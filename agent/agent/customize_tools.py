@@ -1,7 +1,7 @@
 from langchain.agents import tool
 from datetime import datetime
 from PIL import Image
-from utils.openai_client import call_openai_with_image
+from agent.agent.utils.openai_client import call_openai_with_image
 
 
 @tool
@@ -22,5 +22,5 @@ def response_the_question_about_seating_chart(question: str) -> str:
         str: 回傳 LLM 解析問題和座位表的相關資訊的回應。
     """
 
-    response = call_openai_with_image(question, Image.open("seating_chart.jpeg"))
+    response = call_openai_with_image(question, Image.open("./docs/seating_chart.jpeg"))
     return response
