@@ -1,0 +1,8 @@
+phidata
+openai
+duckduckgo-search
+yfinance
+fastapi[standard]
+sqlalchemy
+packaging
+pillow
